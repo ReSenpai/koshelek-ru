@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/koshelek-ru/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/koshelek-ru/static/js/main.bb253f45.chunk.js",
+    "main.js.map": "/koshelek-ru/static/js/main.bb253f45.chunk.js.map",
+    "runtime-main.js": "/koshelek-ru/static/js/runtime-main.3ef206c9.js",
+    "runtime-main.js.map": "/koshelek-ru/static/js/runtime-main.3ef206c9.js.map",
+    "static/css/2.2052abe7.chunk.css": "/koshelek-ru/static/css/2.2052abe7.chunk.css",
+    "static/js/2.608cd2e1.chunk.js": "/koshelek-ru/static/js/2.608cd2e1.chunk.js",
+    "static/js/2.608cd2e1.chunk.js.map": "/koshelek-ru/static/js/2.608cd2e1.chunk.js.map",
+    "static/js/3.9d629af1.chunk.js": "/koshelek-ru/static/js/3.9d629af1.chunk.js",
+    "static/js/3.9d629af1.chunk.js.map": "/koshelek-ru/static/js/3.9d629af1.chunk.js.map",
+    "static/js/4.f629cd88.chunk.js": "/koshelek-ru/static/js/4.f629cd88.chunk.js",
+    "static/js/4.f629cd88.chunk.js.map": "/koshelek-ru/static/js/4.f629cd88.chunk.js.map",
+    "index.html": "/koshelek-ru/index.html",
+    "precache-manifest.d5441506ed84888f45e6de9d1b2b832d.js": "/koshelek-ru/precache-manifest.d5441506ed84888f45e6de9d1b2b832d.js",
+    "service-worker.js": "/koshelek-ru/service-worker.js",
+    "static/css/2.2052abe7.chunk.css.map": "/koshelek-ru/static/css/2.2052abe7.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/koshelek-ru/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.608cd2e1.chunk.js.LICENSE.txt": "/koshelek-ru/static/js/2.608cd2e1.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/koshelek-ru/static/media/roboto-vietnamese-400-normal.a8be5b46.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ef206c9.js",
+    "static/css/2.2052abe7.chunk.css",
+    "static/js/2.608cd2e1.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.bb253f45.chunk.js"
+  ]
+}
