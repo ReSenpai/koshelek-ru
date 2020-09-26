@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3f15c2b9ae0811e15314db95391ee66",
+    "revision": "5c789303c94a36d078719669e5c96a66",
     "url": "/koshelek-ru/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/koshelek-ru/static/css/2.2052abe7.chunk.css"
   },
   {
-    "revision": "568fe264530417d84983",
+    "revision": "129c8c3e3c2842be972d",
     "url": "/koshelek-ru/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/koshelek-ru/static/js/4.f629cd88.chunk.js"
   },
   {
-    "revision": "568fe264530417d84983",
-    "url": "/koshelek-ru/static/js/main.bb253f45.chunk.js"
+    "revision": "129c8c3e3c2842be972d",
+    "url": "/koshelek-ru/static/js/main.d130d801.chunk.js"
   },
   {
     "revision": "faeea891d79e49365150",
