@@ -5,7 +5,7 @@ import HeaderContainer from './components/Header/HeaderContainer';
 import { withSuspense } from './hoc/withSuspense';
 import { getInitially } from './redux/exchange_selectors';
 import { AppStateType } from './redux/store';
-import { testAPI } from './redux/exchange_reducer';
+import { getDepth } from './redux/exchange_reducer';
 
 const TableContainer = lazy(() => import('./components/Table/TableContainer'));
 const RunningLineContainer = lazy(() => import('./components/RunningLine/RunningLineContainer'));
@@ -14,7 +14,7 @@ type MapStatePropsType = {
   initially: boolean
 }
 type MapDispatchPropsType = {
-  testAPI: () => void
+  getDepth: (symbol: string) => void
 }
 type OwnPropsType = {
 }
@@ -23,7 +23,7 @@ export type PropsType = MapStatePropsType & MapDispatchPropsType & OwnPropsType;
 const App: React.FC<PropsType> = (props) => {
 
   useEffect(() =>{
-    props.testAPI();
+    props.getDepth('ETHBTC');
   }, [props.initially])
 
   return (
@@ -46,5 +46,5 @@ const mapStateToProps = (state: AppStateType): MapStatePropsType => ({
 
 
 export default connect<MapStatePropsType, MapDispatchPropsType, OwnPropsType, AppStateType>(mapStateToProps, { 
-  testAPI
+  getDepth
 })(App);
