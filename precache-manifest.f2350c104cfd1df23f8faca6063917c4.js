@@ -1,39 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5c789303c94a36d078719669e5c96a66",
+    "revision": "4b544df649a6a2649e2c2d7265bf46ec",
     "url": "/koshelek-ru/index.html"
   },
   {
-    "revision": "6f438f8ef3711b01e0fd",
+    "revision": "5bc2ab95a53a61a30ba4",
     "url": "/koshelek-ru/static/css/2.2052abe7.chunk.css"
   },
   {
-    "revision": "129c8c3e3c2842be972d",
+    "revision": "ab2996a180c44828d7bc",
     "url": "/koshelek-ru/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "6f438f8ef3711b01e0fd",
-    "url": "/koshelek-ru/static/js/2.608cd2e1.chunk.js"
+    "revision": "5bc2ab95a53a61a30ba4",
+    "url": "/koshelek-ru/static/js/2.7bf4f13c.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/koshelek-ru/static/js/2.608cd2e1.chunk.js.LICENSE.txt"
+    "url": "/koshelek-ru/static/js/2.7bf4f13c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f0e8df651f5934f260f",
-    "url": "/koshelek-ru/static/js/3.9d629af1.chunk.js"
+    "revision": "1b7566e9452941782f8c",
+    "url": "/koshelek-ru/static/js/3.32c1644e.chunk.js"
   },
   {
-    "revision": "3c8435cd858fe0d694b4",
-    "url": "/koshelek-ru/static/js/4.f629cd88.chunk.js"
+    "revision": "53da443e1bd64dff56e6",
+    "url": "/koshelek-ru/static/js/4.2b5c378f.chunk.js"
   },
   {
-    "revision": "129c8c3e3c2842be972d",
-    "url": "/koshelek-ru/static/js/main.d130d801.chunk.js"
+    "revision": "7dfbbb4d08a7738b7e91",
+    "url": "/koshelek-ru/static/js/5.d0dfd0ae.chunk.js"
   },
   {
-    "revision": "faeea891d79e49365150",
-    "url": "/koshelek-ru/static/js/runtime-main.3ef206c9.js"
+    "revision": "ab2996a180c44828d7bc",
+    "url": "/koshelek-ru/static/js/main.53fb9e98.chunk.js"
+  },
+  {
+    "revision": "159bf0a68a9b3b7ce8e2",
+    "url": "/koshelek-ru/static/js/runtime-main.d178e42b.js"
   },
   {
     "revision": "c762d850e2e8d0e29047608715196736",

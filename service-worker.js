@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/koshelek-ru/precache-manifest.97a6b1037c40a06b54e00663ecbc0df2.js"
+  "/koshelek-ru/precache-manifest.f2350c104cfd1df23f8faca6063917c4.js"
 );
 
 self.addEventListener('message', (event) => {

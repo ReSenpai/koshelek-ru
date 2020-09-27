@@ -1,2 +1,0 @@
-(this["webpackJsonpkoshelek-ru"]=this["webpackJsonpkoshelek-ru"]||[]).push([[3],{106:function(e,n,t){"use strict";t.r(n);var u=t(0),r=t.n(u),l=function(){return r.a.createElement("div",null,"Runnung line")};n.default=function(){return r.a.createElement(l,null)}}}]);
-//# sourceMappingURL=3.9d629af1.chunk.js.map
