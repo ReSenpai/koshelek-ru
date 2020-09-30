@@ -36,8 +36,8 @@ const exchangeReducer = (state = initialState, action: ActionsTypes): InitialSta
                 ...state,
                 bids: [
                     ...depthMapToTable(action.bids), 
-                    ...state.bids.slice(0, -(action.bids).length)
-                ]
+                    ...state.bids
+                ].slice(0, 50)
             }
         }
         case UPDATE_ASKS: {
@@ -45,8 +45,8 @@ const exchangeReducer = (state = initialState, action: ActionsTypes): InitialSta
                 ...state,
                 asks: [
                     ...depthMapToTable(action.asks), 
-                    ...state.asks.slice(0, -(action.asks).length)
-                ]
+                    ...state.asks
+                ].slice(0, 50)
             }
         }
         default:
@@ -95,12 +95,11 @@ export const updateAsksData = ( asks: AsksType ): UpdateAsksActionType => ({
 type ThunkType = ThunkAction<Promise<void>, AppStateType, unknown, ActionsTypes>;
 
 export const getDepth = (symbol: string): ThunkType => async (dispatch) => {
-    const ws = await binanceAPI.streamDepth(symbol);
+    const ws = await binanceAPI.runStreamDepth(symbol);
     const response = await binanceAPI.getDepth(symbol);
     dispatch(setBidsData(response.bids));
     dispatch(setAsksData(response.asks));
     
-    console.log(response)
     ws.onmessage = function(event) {
         const streamObj: DepthStreamType = JSON.parse(event.data);
         if (streamObj.u && streamObj.u >= response.lastUpdateId) {

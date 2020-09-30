@@ -7,9 +7,10 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-import { Grid } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 import { PropsType } from './TableContainer';
 import { TableType } from '../../types/types';
+import ReactVirtualizedTable from './TableItem';
 
 const useStyles = makeStyles({
     table: {
@@ -19,13 +20,14 @@ const useStyles = makeStyles({
         flexBasis: 0
     },
     root: {
-        height: '100vh'
+        minHeight: '100vh'
     },
     tableBody: {
         height: '400px'
     },
     container: {
-        maxHeight: 440,
+      maxHeight: 440,
+      minWidth: 400
     }
 });
 
@@ -35,11 +37,19 @@ const Tables: React.FC<PropsType> = ({asks, bids}) => {
 
     return (
         <Grid container spacing={2} direction='row' justify='center' alignItems='center' className={ classes.root }>
+            <ReactVirtualizedTable />
             <Grid item xs={12} className={ classes.grid }>
-                <TableItem data={ bids } />
+                <ReactVirtualizedTable />
+                {/* <Typography variant="h6" component="div">
+                  Bids
+                </Typography>
+                <TableItem data={ bids } /> */}
             </Grid>
             <Grid item xs={12} className={ classes.grid }>
-                <TableItem data={ asks } />
+                {/* <Typography variant="h6" component="div">
+                  Asks
+                </Typography>
+                <TableItem data={ asks } /> */}
             </Grid>
         </Grid>
     );
